@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small app-specific tweaks */
+/* Base tweaks */
+@layer base {
+	html, body, #root { height: 100%; }
+	body { @apply bg-gray-50 text-gray-800 antialiased; }
+}
+
+/* UI helpers */
+.container-max { max-width: 1100px; margin-left: auto; margin-right: auto; }
+
+.btn {
+	@apply inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition;
+}
+.btn-ghost {
+	@apply inline-flex items-center gap-2 border border-gray-200 px-3 py-2 rounded-lg hover:bg-gray-100 transition;
+}
+
+.card {
+	@apply bg-white p-6 rounded-2xl shadow hover:shadow-lg transition;
+}
+
+.card-pro {
+	@apply bg-white p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-blue-100 transition-all duration-200 text-left;
+}
+
+.small-muted { @apply text-sm text-gray-500 }
