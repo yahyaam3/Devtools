@@ -6,7 +6,7 @@ export default function AdSense({ adSlot, format = 'auto', responsive = true }) 
     if (window.adsbygoogle === undefined) {
       const script = document.createElement('script')
       script.async = true
-      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXX' // Reemplazar con tu AdSense ID
+      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7009661903032350'
       script.crossOrigin = 'anonymous'
       document.head.appendChild(script)
     }
@@ -30,7 +30,7 @@ export default function AdSense({ adSlot, format = 'auto', responsive = true }) 
           width: responsive ? '100%' : '300px',
           height: format === 'vertical' ? '600px' : '250px'
         }}
-        data-ad-client="ca-pub-XXXXXXX" // Reemplazar con tu AdSense ID
+        data-ad-client="ca-pub-7009661903032350"
         data-ad-slot={adSlot}
         data-ad-format={format}
         data-full-width-responsive={responsive}
