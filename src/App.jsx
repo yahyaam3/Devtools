@@ -125,7 +125,7 @@ export default function App(){
             {/* Ad Space - Horizontal Banner */}
             <div className="bg-gray-50 py-4 border-y border-gray-200">
               <div className="container-max px-6">
-                <AdSense adSlot="1234567890" format="auto" />
+                <AdSense adSlot="1803345916" format="auto" />
               </div>
             </div>
 
@@ -155,7 +155,7 @@ export default function App(){
 
             {/* Ad Space - Vertical/Square */}
             <section className="container-max px-6 py-8">
-              <AdSense adSlot="0987654321" format="auto" />
+              <AdSense adSlot="1803345916" format="auto" />
             </section>
 
             {/* FAQ */}
